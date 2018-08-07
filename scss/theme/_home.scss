@@ -101,10 +101,10 @@
 
 /*-------- Start Banner Area ------------*/
 .banner-area {
-    background: url(../img/inicio/7.jpg) right;
+    background: url(../img/inicio/filosofia.jpg) right;
     background-size: cover;
     .overlay-bg {
-        background-color: rgba(255,255,255, .4);
+        background: rgba(4, 9, 30, .2);
     }
 }
 
@@ -118,6 +118,7 @@
     text-align: left;
     p{
         color:$azulMarino;
+        font-weight: bold;
     }
     h1 {
         font-size: 48px;
@@ -356,11 +357,14 @@
         }   
     }
     .search-course-right{
-        background:rgba($white,.5);
+        background:rgba($white,.6);
         img{
             width: 250px;
             display: block;
             margin: 0 auto;
+        }
+        .content_ucglobal{
+            margin-bottom: 20px;
         }
         .form-wrap{
             padding:0px 40px;
@@ -691,7 +695,7 @@
 }
 
 .about-banner {
-    background: url(../img/top-banner.jpg) right no-repeat;
+    background: url(../img/inicio/nosotros.jpg) right no-repeat;
     background-size:cover;
 }
 

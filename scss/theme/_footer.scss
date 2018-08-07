@@ -115,6 +115,9 @@
 
 .footer-bottom{
     padding-top:30px;
+    p{
+        color:$white;
+    }
     .footer-social{
         text-align: right;
         @media(max-width: 991px){
