@@ -9,18 +9,29 @@
     padding: 120px 0px;
   .info-area-left{
     img{
-        width:100%;
+        width:80%;
     }
+    @media(max-width:992px){
+        img{
+            width:300px;
+        }
+}
   }  
+  .img-small-screen{
+    text-align: center;
+    margin-top:30px;
+  }
   .info-area-right{
     padding-left:80px;
     h1{
         max-width: 400px;
         margin-bottom:20px;
+        color: $azulMarino;
     }
     p{
         max-width: 450px;
         margin-bottom:0px;
+        text-align: justify;
     }
     @media(max-width:1024px) and (min-width: 991px){
         h1{
@@ -342,3 +353,46 @@ dl.toggle.time-line:before {
 
 
 /*--------  End course-mission area Style  -------------*/
+
+
+/*--------  Section values area style -------------*/
+
+#section-values{
+    padding-bottom: 100px;
+        .text-value{
+        padding: 40px 20px;
+        text-align: center;
+        font-size: 17px;
+    }
+    
+    .nav-item{
+       
+       color: #fff;
+
+    }
+    .nav-tabs{
+        background-color: $azulMarino;
+    }
+    .nav-link{
+        color: #fff;
+    }
+   
+    .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+        color: $azulMarino;
+      
+    }
+    .content-nav{
+        .nav{
+            background-color: $azulMarino;
+        }
+    }
+    @media(max-width:768px){
+       
+            .nav{
+                display: block;
+            }
+        
+    }
+    
+}
+/*-------- End Section values area style -------------*/

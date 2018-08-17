@@ -25,6 +25,92 @@
 /*-------- End courses page Area ------------*/
 
 
+#content-services{
+    padding: 50px 0px;
+    h1{
+        font-size: 25px;
+    }
+    .content-title{
+        background-color: #F4F1F1;
+        padding: 10px;
+        text-transform: uppercase;
+    }
+    .content-descript{
+        .tab-content{
+            background: #F4F1F1;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+        background-color: $azulMarino;
+    }
+    .content-icon{
+        img{
+            display: block;
+            margin: 0 auto;
+            width: 80px;
+        }
+    }
+    .tab-pane{
+        text-align: justify;
+        padding: 30px;
+    }
+
+}
+
+#content-asesories{
+    padding: 50px 0px;
+    h1{
+        font-size: 25px;
+    }
+    .content-title{
+        background-color: #F4F1F1;
+        padding: 10px;
+        text-transform: uppercase;
+    }
+    .content-descript{
+        .tab-content{
+            background: #F4F1F1;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+        background-color: $azulMarino;
+    }
+    .tab-pane{
+        text-align: justify;
+        padding: 30px;
+    }
+}
+
+#content-Other-services{
+    padding: 50px 0px;
+    h1{
+        font-size: 25px;
+    }
+    .content-title{
+        background-color: #F4F1F1;
+        padding: 10px;
+        text-transform: uppercase;
+    }
+    .content-descript{
+        .tab-content{
+            background: #F4F1F1;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+        background-color: $azulMarino;
+    }
+    .tab-pane{
+        text-align: justify;
+        padding: 30px;
+    }
+}
+
 /*-------- Start Course page details Area ------------*/
 
 .left-contents {

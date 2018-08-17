@@ -77,6 +77,7 @@
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+  // background-color:$bg-head;
 }
 
 #header.header-scrolled {
@@ -109,9 +110,10 @@
 }
 
 #header #logo img {
-  padding: 0;
+  padding: 20;
   margin: 0;
   width: 300px;
+  // background-color: rgba(255, 255, 255, 0.7);
 }
 
 @media (max-width: 768px) {
