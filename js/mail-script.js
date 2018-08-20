@@ -22,6 +22,7 @@
                     alert.html(data).fadeIn(); // fade in response data
                     form.trigger('reset'); // reset form
                     submit.attr("style", "display: none !important");; // reset submit button text
+                    console.log(data);
                 },
                 error: function(e) {
                     console.log(e)
